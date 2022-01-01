@@ -1,0 +1,50 @@
+Arguments: 
+  D:\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js add @vant/webapp --production
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\MYSQL\bin;C:\Program Files\Common Files\Autodesk Shared\;E:\Git\cmd;"E:\Tomcat\lib;E:\Tomcat\bin";"E:\JAVA DK\bin;E:\JAVA DK\jre\bin;";"E:\JAVA DK\lib;E:\JAVA DK；";C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Xshell\;D:\Xftp\;D:\nodejs\;E:\mingw64\bin;D:\nodejs\node_global\node_modules\yarn\bin;C:\Users\14446\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\14446\AppData\Local\Programs\Python\Python37\;C:\Users\14446\AppData\Local\Microsoft\WindowsApps;E:\IDEA\IntelliJ IDEA 2020.2\bin;E:\Microsoft VS Code\bin;E:\IDEA\IntelliJ IDEA Community Edition 2020.2.2\bin;E:\Bandizip\;E:\PyCharm 2019.3.3\bin;C:\Users\14446\AppData\Roaming\npm;E:\WebStorm 2021.3.1\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.17.6
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://registry.npm.taobao.org/@vant%2fwebapp: Not found
+      at Request.params.callback [as _callback] (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "miniprogram-ts-less-quickstart",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "miniprogram-api-typings": "^2.8.3-1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
