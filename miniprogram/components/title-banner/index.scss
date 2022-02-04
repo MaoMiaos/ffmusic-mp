@@ -1,0 +1,19 @@
+@import '../../style/varible.scss';
+.header{
+  padding:0 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40rpx;
+  .title{
+    font-size: 44rpx;
+    color:$text-active-color;
+    line-height: 52rpx;
+  }
+  .more{
+    color:$primary-color;
+    font-size: 28rpx;
+    line-height: 52rpx;
+  }
+
+}

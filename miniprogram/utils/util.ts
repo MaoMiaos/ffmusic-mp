@@ -17,3 +17,18 @@ const formatNumber = (n: number) => {
   const s = n.toString()
   return s[1] ? s : '0' + s
 }
+
+const tokenKey = 'MiaoMao'
+export const setToken = (token: string) => {
+  console.log(token)
+  wx.setStorageSync(tokenKey, token)
+}
+
+
+export const getToken = () => {
+  return wx.getStorageSync(tokenKey) || null
+}
+
+export const removeToken = () => {
+  wx.setStorageSync(tokenKey, '');
+}

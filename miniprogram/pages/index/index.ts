@@ -1,17 +1,142 @@
-// index.ts
-
-import { sayHello } from "../../api/hello"
-
+// pages/index/index.ts
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    message:'Hello World',
+    categoryBannerList: [
+      {
+        title: '流行音乐',
+        desc: '1.5万播放',
+        image: '../../images/hip-hop.png'
+      },
+      {
+        title: '流行音乐',
+        desc: '1.5万播放',
+        image: '../../images/hip-hop.png'
+      },
+      {
+        title: '流行音乐',
+        desc: '1.5万播放',
+        image: '../../images/hip-hop.png'
+      }
+    ],
+    musicianBannerList: [
+      {
+        id: 111,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 222,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 333,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 333,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+      {
+        id: 333,
+        name: '雷哈娜',
+        category: '流行音乐',
+        photo: '../../images/musician-photo.png'
+      },
+    ],
+    playlist: [
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      },
+      {
+        image: '../../images/album.png',
+        title: '心流歌单',
+        description: '歌单描述'
+      }
+    ]
+
   },
-  hi(){
-    sayHello().then(data=>{
-      const message = data + ''
-      this.setData({
-        message
-      })
-    })
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow() {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload() {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh() {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom() {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage() {
+
   }
 })
