@@ -1,9 +1,12 @@
 {
   "pages": [
+
+    "pages/play-list/detail",
     "pages/index/index",
     "pages/search/index",
     "pages/lib/index",
     "pages/login/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -31,8 +31,8 @@
   <view class="section">
     <title-banner title="推荐歌单" />
 
-    <scrollable-section itemCount="{{musicianBannerList.length }}" itemWidth="{{ 320 }}">
-      <musician-card wx:for="{{musicianBannerList}}" wx:key="index" item="{{ item }}" bindclick="onClick" />
+    <scrollable-section itemCount="{{ playlist.length }}" itemWidth="{{ 320 }}">
+      <album-card wx:for="{{ playlist }}" wx:key="index" item="{{item}}"/>
     </scrollable-section>
   </view>
   <view class="section">
@@ -51,7 +51,7 @@
   </view>
   <view class="section">
     <title-banner title="最近播放" />
-    <music-list/>
+    <music-list list="{{musicList}}"/>
   </view>
 
 </view>

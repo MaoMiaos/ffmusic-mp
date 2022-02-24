@@ -3,17 +3,17 @@ Component({
   /**
    * 组件的属性列表
    */
-  options:{
-    styleIsolation:"isolated"
+  options: {
+    styleIsolation: "isolated"
   },
   properties: {
-    item:{
-      type :Object,
-      value:() => {
+    item: {
+      type: Object,
+      value: () => {
         return null
       }
     }
-    },
+  },
 
   /**
    * 组件的初始数据
@@ -26,6 +26,12 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    onTab: function () {
+      const name = this.properties.item.name;
+      console.log(name)
+      wx.navigateTo({
+        'url': '/pages/play-list/detail?id=11'
+      })
+    }
   }
 })

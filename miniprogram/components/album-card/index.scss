@@ -22,13 +22,13 @@
     word-spacing: nowrap;
   }
   .description{
-    min-width: 150rpx;
+    max-width: 150rpx;
     margin-top: 10rpx;
     font-size: 24rpx;
     color: $text-color;
     line-height: 30rpx;
-    overflow: hidden;
+    overflow:hidden;
     text-overflow: ellipsis;
-    word-spacing: nowrap;
+    white-space:nowrap;
   }
 }

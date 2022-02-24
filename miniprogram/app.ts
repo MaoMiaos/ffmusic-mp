@@ -11,11 +11,11 @@ App({
     return false;
   },
   //在onlaunch定义到token，然后存储到全局，
-  onShow() {
-    if(!getToken()){
-      wx.navigateTo({
-        url:'pages/login/index'
-      })
-    }
-  },
+  // onShow() {
+  //   if(!getToken()){
+  //     wx.navigateTo({
+  //       url:'pages/login/index'
+  //     })
+  //   }
+  // },
 })

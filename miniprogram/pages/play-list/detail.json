@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "f-button":"../../components/f-button/index",
+    "music-list": "../../components/music-list/index"
+  }
+}
